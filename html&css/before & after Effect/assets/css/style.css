@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-image:url(../img/IMG20190920234039.jpg
+    );
+    background-size: 100%;
+    background-position: center center;
+    margin: 200px auto 0px;
+    border: 2px solid black;
+    
+    transition: .5s;
+    /* overflow: hidden; */
+    position: relative;
+
+    
+    
+      
+}
+
+.box:hover {
+    background-size: 100%;
+    transform: scale(2);
+}
+
+
+    
+    
+
+
+.box .blr h3{
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    color: transparent;
+    font-size: 10px;
+    transition: 1s;
+}
+
+.box:hover .blr h3 {
+    color:yellow;
+    top: 180px;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.box .blr{
+    width: 100%;
+    height: 100%;
+    
+    background-color:rgba(0,0,0,.5);
+    overflow: hidden;
+
+}
+.box:hover .blr{
+    background-color:rgba(0,0,0,0);
+    overflow: hidden;
+}
+
+
+ .box:before {
+    content: '';
+
+    width: 100px;
+    height: 200px;
+
+    border: 0px solid black;
+    background-image: url(../img/right.webp);
+    background-position: bottom -138px right -236px;
+    
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    transition: .5s;
+}
+
+.box:after {
+    content: '';
+
+    width: 100px;
+    height: 200px;
+    border-left: none;
+    border-right: none;
+    border: 0px solid black;
+    background-image: url(../img/right.webp);
+    background-position: bottom -138px right 463px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 4;
+    transition: .5s;
+}
+
+.box:hover:after{
+    content: '';
+
+    width: 98px;
+    height: 200px;
+
+    border: 2px solid black;
+    background-color:red;
+    display: block;
+    position: absolute;
+    top: -2px;
+    right: -100px;
+    z-index: 4;
+    transform:rotateY(167deg);
+}
+
+.box:hover:before{
+    content: '';
+
+    width: 98px;
+    height: 200px;
+    border-left: none;
+
+    border: 2px solid black;
+    background-image: url(../img/right.webp);
+
+    display: block;
+    position: absolute;
+    top: -2px;
+    left: -100px;
+    z-index: 4;
+    transform:rotateY(167deg);
+
+} 

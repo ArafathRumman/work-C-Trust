@@ -1,0 +1,11 @@
+button{
+    
+    background-color: green;
+    color: white;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    /* margin: auto; */
+}
+

@@ -1,0 +1,150 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    font-weight: normal;
+}
+
+.menu{
+    background-color: purple ;
+    border: 1px solid black;
+}
+
+.menu .container {
+    width: 80%;
+    margin: auto;
+}
+
+.menu .container ul{
+
+}
+
+.menu .container ul li{
+    display: inline-block;
+    list-style: none;
+    cursor: default;
+    transition: .5s;
+    position: relative;
+}
+
+.menu .container ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color:white;
+    text-align: center;
+    transition: .5s;
+}
+
+.menu .container ul li:hover{
+    background-color: #b563b5;
+}
+
+.menu .container ul li:hover a{
+    transform: scale(1.1);
+}
+
+.menu .container ul li .submenu ul{
+    position: relative;
+    position: absolute;
+    top: 100%;
+    background-color: purple ;
+    
+}
+
+.menu .container ul li .submenu ul li{
+    position: relative;
+}
+
+.menu .container ul li .submenu ul li:nth-child(1){
+    display: block;
+    width: 150px;
+    position: absolute;
+    left: -500px;
+    transition: 1s;
+    background-color: purple ;
+
+
+}
+
+.menu .container ul li .submenu ul li:nth-child(2){
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 40px;
+    left: -500px;
+    transition: 1.2s;
+    background-color: purple ;
+
+
+}
+
+.menu .container ul li .submenu ul li:nth-child(3){
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 80px;
+    left: -500px;
+    transition: 1.4s;
+    background-color: purple ;
+
+
+}
+
+.menu .container ul li .submenu ul li:nth-child(4){
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 120px;
+    left: -500px;
+    transition: 1.6s;
+    background-color: purple ;
+    
+
+}
+
+.menu .container ul li .submenu ul li:nth-child(5){
+    display: block;
+    width: 150px;
+    position: absolute;
+    top: 160px;
+    left: -500px;
+    transition: 1.8s;
+    background-color: purple ;
+
+
+}
+
+.menu .container ul li:hover .submenu ul li{
+    display: block;
+    width: 150px;
+    position: absolute;
+    left: 0px;
+
+}
+
+.menu .container ul li .submenu ul li {
+    transform: scale(1);
+
+}
+
+.menu .container ul li .submenu ul li:hover {
+    transform: scale(1.1);
+    background-color: #b563b5  ;
+    
+}
+
+.menu .container ul li .submenu ul li ul{
+    position: absolute;
+    left:-650px ;
+    transition: .5;
+    
+
+}
+
+.menu .container ul li .submenu ul li:hover ul {
+    position: absolute;
+    left: 150px;
+    top: 0px;
+
+}

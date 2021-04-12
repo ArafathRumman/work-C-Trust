@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+.form{
+    display: block;
+    width: 500px;
+    padding: 20px 40px;
+    margin: 100px auto 0px;background-color: #ccc;
+    border-radius:5px;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+
+.form >input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+}
+.form label{
+    display: block;
+    font-size: 20px;
+    color: blue;
+    padding: 2px 5px;
+    margin-top: 5px;
+}
+
+.form .submit{
+    overflow: hidden;
+}
+
+.form .submit img{
+    display: block;
+    width: 66%;
+    height: 55px;
+    background-color:#ccc;
+    float: left;
+    margin-top: 4px;
+    display: none;
+}
+
+/* .form .submit input{
+    width: 33%;
+    padding: 10px;
+    float: left ;
+    background-color:blue ;
+    font-size: 23px;
+    border-radius: 5px;
+    border: 2px solid #ccc;  
+    color:white;
+} */

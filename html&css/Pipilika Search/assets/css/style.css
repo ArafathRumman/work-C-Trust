@@ -1,0 +1,76 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+
+}
+.pipilika-home{
+	width: 100%;
+	height: 495px;
+	background-image: url(../img/sundarban_long.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom center;
+	background-size:100%;
+
+
+}
+
+.pipilika-home .main-pipilika {
+	width: 850px;
+	height: 250px;
+	
+	margin: 159px auto 0px
+	
+}
+.pipilika-home .main-pipilika .pipilika-search {
+	
+	overflow: hidden;
+	
+}
+
+.pipilika-home .main-pipilika  > img {
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+
+	
+}
+.pipilika-home .main-pipilika .pipilika-search input{
+	width: 90%;
+	display: block;
+	float: left;
+	border: 1px solid black;
+	box-sizing: border-box;
+	padding: 10px 16px;
+	box-shadow:  0 0 2px rgba(0, 0, 0, 0.2)
+;
+border-radius: 7px 0px 0px 7px  ;
+}
+.pipilika-home .main-pipilika .pipilika-search button{
+	width: 10%;
+	display: block;
+	float: left;
+	padding: 10px 16px;
+	background-color: #8CC152;
+	border-color: #8CC152;
+	border: 1px solid black;
+	cursor: pointer;
+	border-radius: 0px 7px 7px 0px;
+	
+
+}
+.pipilika-home .main-pipilika .logo-image {
+	text-align: center;
+}
+.pipilika-home .main-pipilika .logo-image a{
+	text-decoration: none;
+	
+}
+
+.pipilika-home .main-pipilika .logo-image a img{
+	width: 	70px;
+	margin: 10px 10px 10px 0px;
+	
+	
+}
+

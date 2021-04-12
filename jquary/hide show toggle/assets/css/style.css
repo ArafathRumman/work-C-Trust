@@ -1,0 +1,26 @@
+button{
+    width: 400px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin: auto;
+}
+
+p{
+    display: block;
+    width: 400px;
+    height: auto;
+    text-transform: capitalize;
+    margin: auto ;
+    text-align: justify;
+    background-color: red;
+    color:yellow;
+    overflow: auto;
+
+    
+    
+}

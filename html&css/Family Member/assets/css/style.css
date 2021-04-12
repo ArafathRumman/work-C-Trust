@@ -1,0 +1,41 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+.family{
+	width: 33.33%;
+	height: auto;
+	background-color: black;
+	padding: 20px 0px;
+	float: left;
+
+}
+.family img{
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+	display: block;
+	margin: auto;
+}
+.family h2{
+	font-family: impact;
+	color:white ;
+	text-align: center;
+	font-weight: normal;
+	font-size: 30px;
+
+}
+.family p{
+	font-family: Arial;
+	text-align: center;
+	font-size: 15px;
+	color: yellow;
+	font-weight: normal;
+	display: block;
+	margin: auto;
+	width: 70%;
+
+	
+}

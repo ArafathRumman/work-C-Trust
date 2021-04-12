@@ -1,0 +1,14 @@
+.argentina {
+	width: 500px;
+	border-top: 100px solid skyblue;
+	border-bottom: 100px solid skyblue;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+	
+}
+.argentina img {
+
+	width: 100px;
+
+}

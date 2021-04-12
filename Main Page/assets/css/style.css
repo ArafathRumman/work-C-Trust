@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+.jumbotron{
+    width:500px;
+    
+    
+    margin: 100px auto;
+}
+.jumbotron img{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 5px auto;
+}
+

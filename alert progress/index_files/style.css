@@ -1,0 +1,10 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: tahoma;
+}
+
+.table{
+    width: 80%;
+    margin: 100px auto 0px;
+}
